@@ -92,8 +92,6 @@ It opens the output ZIP file in binary write mode ('wb') and writes the extracte
 
 
 > [!CAUTION]
-> Important points:
-> 
 >This is a basic example and has limitations.
 > 
 > It doesn't hide the data securely and might damage the image quality.
