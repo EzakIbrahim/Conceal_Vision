@@ -58,15 +58,24 @@ If valid, it opens the image and ZIP file in binary read mode ('rb').
 It creates a path for the output image (output.png) within the specified directory.
 It opens the output image in binary write mode ('wb').
 Using shutil.copyfileobj, it essentially copies the content of both the image and ZIP file sequentially into the new output image. This is a very rudimentary way of hiding data and can be easily detected.
+
 ### Extract_files function:
-##### It takes two arguments:
-concealed_file_path: Path to the image containing the hidden file.
-output_directory: Directory to save the extracted ZIP file.
+#### It takes two arguments:
+`concealed_file_path`: Path to the image containing the hidden file.
+
+`output_directory`: Directory to save the extracted ZIP file.
+
 It checks if both arguments are provided.
+
 It opens the concealed image file in binary read mode ('rb').
+
 It searches for the specific byte sequence (b'\x50\x4b\x03\x04') that indicates the beginning of a ZIP file. If not found, it raises an error.
+
 If found, it positions the read pointer to the start of the ZIP data within the image file.
+
 It reads the remaining data as the concealed ZIP data.
+
 It creates a path for the extracted ZIP file (extracted.zip) within the specified directory.
+
 It opens the output ZIP file in binary write mode ('wb') and writes the extracted data to it.
 
