@@ -91,5 +91,5 @@ It creates a path for the extracted ZIP file (extracted.zip) within the specifie
 It opens the output ZIP file in binary write mode ('wb') and writes the extracted data to it.
 
 
-> [!CAUTION]
+> [!Important points:]
 > Advises about risks or negative outcomes of certain actions.
