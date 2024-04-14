@@ -20,4 +20,9 @@ Extract Text from an Image: Recover the hidden text from an image containing Exi
   `from stegano import exifHeader`: Imports the hide and reveal functions (presumably) from a custom exifHeader module within the stegano library.
   ### User Input:
   `user_Choice = int(input("Choose The Mod:\n[1] Encode\n[2] decode\nOption: "))`: Prompts the user to choose between encoding (hiding a message) or decoding (revealing a hidden message). It reads the input, converts it to an integer, and stores it in `user_Choice`.
-
+  ### Encoding (if user_Choice is 1):
+  `image = input("Write the image name and extinsion example: image.jpg\n")`: Prompts the user to enter the name and extension of the image file containing the secret message.
+  `FinalImageName = input("Write the Final image name and extinsion example: Final.png\n")`: Prompts the user to enter the desired name and extension for the final image where the message will be hidden.
+  `HiddenMessage = input("Write the desired text to be hidden\n")`: Prompts the user to enter the text they want to hide.
+  `secret = exifHeader.hide(image, FinalImageName, secret_message=HiddenMessage)`: Calls the hide function (likely from exifHeader) to perform the encoding. It passes the original image name, final image name, and the secret message as arguments. The return value      is stored in secret (possibly for debugging or internal use).
+  `print("DONE")`: Prints a success message if encoding is successful.
