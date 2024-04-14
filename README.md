@@ -30,3 +30,7 @@ Extract Text from an Image: Recover the hidden text from an image containing Exi
   `secret = exifHeader.hide(image, FinalImageName, secret_message=HiddenMessage)`: Calls the hide function (likely from exifHeader) to perform the encoding. It passes the original image name, final image name, and the secret message as arguments. The return value      is stored in secret (possibly for debugging or internal use).
   
   `print("DONE")`: Prints a success message if encoding is successful.
+  ### Decoding (if user_Choice is 2):
+  `Decodedimage = input("Write the image name and extinsion example: image.jpg\n")`: Prompts the user to enter the name and extension of the image containing the hidden message.
+  
+  `print(exifHeader.reveal(Decodedimage))`: Calls the reveal function (likely from exifHeader) to extract the hidden message. It passes the image name as an argument. The revealed message is then printed.
