@@ -58,9 +58,13 @@ shutil: This library helps with file operations like copying.
     `output_directory`: Directory to save the modified image
 
 It checks if all arguments are provided.
+
 If valid, it opens the image and ZIP file in binary read mode ('rb').
+
 It creates a path for the output image (output.png) within the specified directory.
+
 It opens the output image in binary write mode ('wb').
+
 Using shutil.copyfileobj, it essentially copies the content of both the image and ZIP file sequentially into the new output image. This is a very rudimentary way of hiding data and can be easily detected.
 
 ### Extract_files function:
