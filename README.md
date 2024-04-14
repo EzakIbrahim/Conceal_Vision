@@ -62,9 +62,9 @@ Using shutil.copyfileobj, it essentially copies the content of both the image an
 ### Extract_files function:
  - It takes two arguments:
 
-        `concealed_file_path`: Path to the image containing the hidden file.
+   `concealed_file_path`: Path to the image containing the hidden file.
 
-        `output_directory`: Directory to save the extracted ZIP file.
+   `output_directory`: Directory to save the extracted ZIP file.
 
 It checks if both arguments are provided.
 
