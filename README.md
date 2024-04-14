@@ -16,7 +16,7 @@ Extract Text from an Image: Recover the hidden text from an image containing Exi
   ## Explanation:
   This is a simple example from the code i use to create the functionlity of the (simple text to image) option in the software,the code implements steganography(the art of hiding messages in everyday files like images). It uses the stegano library.
   ## Breakdown:
-    ### Imports:
+  ### Imports:
   `from stegano import exifHeader`: Imports the hide and reveal functions (presumably) from a custom exifHeader module within the stegano library.
     ## User Input:
   `user_Choice = int(input("Choose The Mod:\n[1] Encode\n[2] decode\nOption: "))`: Prompts the user to choose between encoding (hiding a message) or decoding (revealing a hidden message). It reads the input, converts it to an integer, and stores it in `user_Choice`.
