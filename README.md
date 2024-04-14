@@ -90,10 +90,6 @@ It creates a path for the extracted ZIP file (extracted.zip) within the specifie
 
 It opens the output ZIP file in binary write mode ('wb') and writes the extracted data to it.
 
-> [!CAUTION:]
-> This is a basic example and has limitations. It doesn't hide the data securely and might damage the image quality.
 
-
-> There are more sophisticated steganography techniques that embed data in a less noticeable way.
-> Be aware of the legal implications of hiding data in files without permission.
-
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
