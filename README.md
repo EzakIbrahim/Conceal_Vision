@@ -49,10 +49,13 @@ This Python code defines two functions for hiding and extracting files within an
 ### Libraries:
 shutil: This library helps with file operations like copying.
 ### Hide_files function:
-It takes three arguments:
-`zip_file_path`: Path to the file you want to hide (compressed into a ZIP)
-`image_file_path`: Path to the image where you want to hide the file
-`output_directory`: Directory to save the modified image
+  - It takes three arguments:
+    `zip_file_path`: Path to the file you want to hide (compressed into a ZIP)
+
+    `image_file_path`: Path to the image where you want to hide the file
+
+    `output_directory`: Directory to save the modified image
+
 It checks if all arguments are provided.
 If valid, it opens the image and ZIP file in binary read mode ('rb').
 It creates a path for the output image (output.png) within the specified directory.
