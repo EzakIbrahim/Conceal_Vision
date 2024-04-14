@@ -60,7 +60,7 @@ It opens the output image in binary write mode ('wb').
 Using shutil.copyfileobj, it essentially copies the content of both the image and ZIP file sequentially into the new output image. This is a very rudimentary way of hiding data and can be easily detected.
 
 ### Extract_files function:
-#### It takes two arguments:
+ - It takes two arguments:
 `concealed_file_path`: Path to the image containing the hidden file.
 
 `output_directory`: Directory to save the extracted ZIP file.
