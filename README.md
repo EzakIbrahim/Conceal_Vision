@@ -65,7 +65,9 @@ It creates a path for the output image (output.png) within the specified directo
 
 It opens the output image in binary write mode ('wb').
 
-Using shutil.copyfileobj, it essentially copies the content of both the image and ZIP file sequentially into the new output image. This is a very rudimentary way of hiding data and can be easily detected.
+Using shutil.copyfileobj, it essentially copies the content of both the image and ZIP file sequentially into the new output image. 
+> [!NOTE]
+> This is a very rudimentary way of hiding data and can be easily detected.
 
 ### Extract_files function:
  - It takes two arguments:
