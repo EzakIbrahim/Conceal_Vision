@@ -18,3 +18,12 @@ This is a sample from the code i use to create the functionlity of the (simple t
 ## Breakdown:
   ### Imports:
 `from stegano import exifHeader`: Imports the hide and reveal functions (presumably) from a custom exifHeader module within the stegano library.
+
+<details>
+       <summary>Toggle List Example</summary>
+
+        ### Heading
+        1. ABC
+        2. DEF
+           * Hello
+</details>
