@@ -44,3 +44,29 @@ Extract Text from an Image: Recover the hidden text from an image containing Exi
   Steganography techniques can be fragile and easily detectable depending on the method used. It's generally not considered a secure way to hide sensitive information.
 
 # File Hiding explanation (Files_In_image_OR_video.py):
+## Explanation:
+This Python code defines two functions for hiding and extracting files within an image. It's a very basic implementation of steganography, which is the practice of hiding information in another medium.
+### Libraries:
+shutil: This library helps with file operations like copying.
+### Hide_files function:
+It takes three arguments:
+`zip_file_path`: Path to the file you want to hide (compressed into a ZIP)
+`image_file_path`: Path to the image where you want to hide the file
+`output_directory`: Directory to save the modified image
+It checks if all arguments are provided.
+If valid, it opens the image and ZIP file in binary read mode ('rb').
+It creates a path for the output image (output.png) within the specified directory.
+It opens the output image in binary write mode ('wb').
+Using shutil.copyfileobj, it essentially copies the content of both the image and ZIP file sequentially into the new output image. This is a very rudimentary way of hiding data and can be easily detected.
+### Extract_files function:
+##### It takes two arguments:
+concealed_file_path: Path to the image containing the hidden file.
+output_directory: Directory to save the extracted ZIP file.
+It checks if both arguments are provided.
+It opens the concealed image file in binary read mode ('rb').
+It searches for the specific byte sequence (b'\x50\x4b\x03\x04') that indicates the beginning of a ZIP file. If not found, it raises an error.
+If found, it positions the read pointer to the start of the ZIP data within the image file.
+It reads the remaining data as the concealed ZIP data.
+It creates a path for the extracted ZIP file (extracted.zip) within the specified directory.
+It opens the output ZIP file in binary write mode ('wb') and writes the extracted data to it.
+
