@@ -34,3 +34,7 @@ Extract Text from an Image: Recover the hidden text from an image containing Exi
   `Decodedimage = input("Write the image name and extinsion example: image.jpg\n")`: Prompts the user to enter the name and extension of the image containing the hidden message.
   
   `print(exifHeader.reveal(Decodedimage))`: Calls the reveal function (likely from exifHeader) to extract the hidden message. It passes the image name as an argument. The revealed message is then printed.
+  ### Error Handling:
+  `else`: If the user's choice is not 1 or 2 (invalid option).
+  
+  `print("ERROR: invalid option")`: Prints an error message.
