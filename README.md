@@ -18,6 +18,6 @@ Extract Text from an Image: Recover the hidden text from an image containing Exi
   ## Breakdown:
   ### Imports:
   `from stegano import exifHeader`: Imports the hide and reveal functions (presumably) from a custom exifHeader module within the stegano library.
-    ## User Input:
+  ## User Input:
   `user_Choice = int(input("Choose The Mod:\n[1] Encode\n[2] decode\nOption: "))`: Prompts the user to choose between encoding (hiding a message) or decoding (revealing a hidden message). It reads the input, converts it to an integer, and stores it in `user_Choice`.
 
