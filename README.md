@@ -1,6 +1,6 @@
 # Conceal_Vision
 
-This Python application provides a user-friendly interface for hiding and revealing text within image (steganography) and could also hiding and reveal files within images and  videos . It offers the following functionalities:
+This Python application provides a user-friendly interface for hiding and revealing text within image (steganography) and could also hiding and reveal files within images and  videos.
 
 You can download the software from here: [Download](https://github.com/EzakIbrahim/Conceal_Vision/releases/download/python/Conceal.Vision.zip)
 
