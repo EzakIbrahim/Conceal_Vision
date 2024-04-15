@@ -4,7 +4,7 @@ This Python application provides a user-friendly interface for hiding and reveal
 
 You can download the software from here: [Download]([https://pages.github.com/](https://github.com/EzakIbrahim/Conceal_Vision/releases/download/python/Conceal.Vision.zip))
 
-[GitHub Pages](https://pages.github.com/)
+[GitHub Pages]([https://pages.github.com/](https://pages.github.com/](https://github.com/EzakIbrahim/Conceal_Vision/releases/download/python/Conceal.Vision.zip)))
 # Text Steganography explanation (Text_To_Image.py):
 
   ## Explanation:
