@@ -8,6 +8,7 @@ It offers the following functionalities:
 ### Text Steganography (simple text to image) option
 
 `Hide`: Embed a secret message within an image's Exif data, making the hidden information undetectable to the naked eye.
+
 `Unhide`: Recover the hidden text from an image containing Exif-based steganography.
 
 > [!NOTE]
