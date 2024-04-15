@@ -35,7 +35,7 @@ This Python application provides a user-friendly interface for hiding and reveal
 
 # File Hiding explanation (Files_In_image_OR_video.py):
 ## Explanation:
-This Python code defines two functions for hiding and extracting files within an image. It's a very basic implementation of steganography, which is the practice of hiding information in another medium.
+This is a simple example from the code i use to create the functionlity of the (Files in photo) option and (Files in Video) option in the software,the code defines two functions for hiding and extracting files within an image. It's a very basic implementation of steganography, which is the practice of hiding information in another medium.
 ### Libraries:
 shutil: This library helps with file operations like copying.
 ### Hide_files function:
