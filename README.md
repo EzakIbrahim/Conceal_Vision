@@ -5,12 +5,12 @@ This Python application provides a user-friendly interface for hiding and reveal
 
 It offers the following functionalities:
 
-# Text Steganography (simple text to image) option
+### Text Steganography (simple text to image) option
 
 Hide Text in an Image: Embed a secret message within an image's Exif data, making the hidden information undetectable to the naked eye.
 Extract Text from an Image: Recover the hidden text from an image containing Exif-based steganography.
 
-# File Hiding (Files in image) option and (Files in Video) option
+### File Hiding (Files in image) option and (Files in Video) option
 
   1. Conceal Files in an Image or video : This functionality aims to embed files within an image or video (will be descussed later).
   
